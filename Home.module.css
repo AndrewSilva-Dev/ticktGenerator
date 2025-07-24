@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url(./src/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(./src/images/background-desktop.png);
+
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+.teste {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+
+    gap: 5%;
+
+    z-index: 1;
+}
+
+img {
+    position: absolute;
+}
+
+.imagemLogoFull {
+    position: relative;
+}
+
+.lineTop {
+    right: -14px;
+    top: 50px;
+    width: 30%;
+}
+
+.Lines {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 163px;
+
+}
+
+.Lines2 {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 144px;
+
+}
+
+.markBottom {
+    bottom: 0;
+    width: 55%;
+    left: 0;
+}
+
+.circle {
+    width: 16%;
+    top: -80px;
+    left: 45px;
+
+}
+
+.circleiInf {
+    width: 12%;
+    bottom: 260px;
+    right: 350px;
+}
+
+.logoTitle {
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+
+
+}
+
+h1,
+h2 {
+    font-family: 'Inconsolata';
+    color: white;
+    font-weight: 800;
+
+}
+
+h1 {
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsl(252, 6%, 83%);
+
+    margin-bottom: 1.4rem;
+}
+
+
+
+
+.upload_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    width: 70%;
+}
+
+.upload_container img {
+    position: relative;
+    cursor: pointer;
+}
+
+.aiai {
+    width: 70%;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.info_img {
+    width: 60%;
+    color: rgb(119, 119, 119);
+    margin-top: 10px;
+    opacity: 90%;
+
+}
+
+.upload_box {
+
+    min-height: 8.4rem;
+    width: calc(100% - 2rem);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #fff;
+
+    opacity: 60%;
+
+    border: 2px dashed hsl(246, 15%, 58%);
+    background: hsla(245, 19%, 35%, 0.5);
+
+}
+
+.upload_arquivo {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+
+
+}
+
+.upload_arquivo p {
+    color: hsl(245, 15%, 58%);
+    font-family: 'Inconsolata';
+    font-weight: 500;
+    font-size: 1rem;
+
+    margin-top: 1.4rem;
+}
+
+.upload_arquivo input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+
+
+}
+
+.upload_img {
+    display: flex;
+    border: solid 1px hsla(245, 19%, 35%, 0.9);
+    background-color: hsla(245, 19%, 35%, 0.5);
+    border-radius: 0.80rem;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    cursor: pointer;
+}
+
+.divzao {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Estilização do formulario*/
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 20px;
+
+}
+
+.labels {
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
+.inps {
+    width: 100%;
+    height: 2.2rem;
+    margin: 10px 0 10px 0;
+    border: solid 1px hsl(246, 21%, 38%);
+    border-radius: 5px;
+    background-color: hsla(247, 64%, 14%, 0.644)
+}
+
+form  button{
+    width: 100%;
+    height: 2.2rem;
+    background-color: hsl(7, 88%, 67%);
+    border: none;
+
+    margin-top: 15px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
